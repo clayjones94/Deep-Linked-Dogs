@@ -49,19 +49,9 @@ class BreedListViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = DogListViewController()
-        vc.breed = breeds?[indexPath.row].name
+        let breed = breeds?[indexPath.row].name
+        let vc = DogListViewController(breed: breed!)
         self.navigationController?.pushViewController(vc, animated: false)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
