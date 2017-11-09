@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D60856EF99A8AF2D3DF3F0E /* Pods_Deep_Linked_DogsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF4B0804F09B6A32815B7B7 /* Pods_Deep_Linked_DogsUITests.framework */; };
+		57508428A3FFF41B041A529C /* Pods_Deep_Linked_DogsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED78C6C19B99D339520EE38 /* Pods_Deep_Linked_DogsTests.framework */; };
+		A10F587B9FABA6B6FA93AD4E /* Pods_Deep_Linked_Dogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A36E35EC57612E70002AD0 /* Pods_Deep_Linked_Dogs.framework */; };
 		F9D7BF4F1FB3B53F00178C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF4E1FB3B53F00178C31 /* AppDelegate.swift */; };
-		F9D7BF511FB3B53F00178C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF501FB3B53F00178C31 /* ViewController.swift */; };
 		F9D7BF541FB3B54000178C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D7BF521FB3B54000178C31 /* Main.storyboard */; };
 		F9D7BF561FB3B54000178C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D7BF551FB3B54000178C31 /* Assets.xcassets */; };
 		F9D7BF591FB3B54000178C31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D7BF571FB3B54000178C31 /* LaunchScreen.storyboard */; };
 		F9D7BF641FB3B54000178C31 /* Deep_Linked_DogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF631FB3B54000178C31 /* Deep_Linked_DogsTests.swift */; };
 		F9D7BF6F1FB3B54000178C31 /* Deep_Linked_DogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF6E1FB3B54000178C31 /* Deep_Linked_DogsUITests.swift */; };
+		F9D7BF7D1FB3B59100178C31 /* BreedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF7C1FB3B59100178C31 /* BreedListViewController.swift */; };
+		F9D7BF7F1FB3B5A500178C31 /* DogListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF7E1FB3B5A500178C31 /* DogListViewController.swift */; };
+		F9D7BF811FB3B5B700178C31 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF801FB3B5B700178C31 /* DogViewController.swift */; };
+		F9D7BF831FB3B62300178C31 /* DogDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF821FB3B62300178C31 /* DogDatabase.swift */; };
+		F9D7BF851FB3B67A00178C31 /* DogBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF841FB3B67A00178C31 /* DogBreed.swift */; };
+		F9D7BF871FB3B76700178C31 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF861FB3B76700178C31 /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0216156E9D0192BE5DA16B34 /* Pods-Deep Linked DogsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Linked DogsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Linked DogsUITests/Pods-Deep Linked DogsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0490AF36A8EB7AA9EA3F03F5 /* Pods-Deep Linked DogsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Linked DogsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Linked DogsTests/Pods-Deep Linked DogsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		622ED9D0CC568E47590DF3AC /* Pods-Deep Linked Dogs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Linked Dogs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Linked Dogs/Pods-Deep Linked Dogs.debug.xcconfig"; sourceTree = "<group>"; };
+		813D09B8ED7A6F7EEA3146B8 /* Pods-Deep Linked DogsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Linked DogsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Linked DogsUITests/Pods-Deep Linked DogsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8ED78C6C19B99D339520EE38 /* Pods_Deep_Linked_DogsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deep_Linked_DogsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A36E35EC57612E70002AD0 /* Pods_Deep_Linked_Dogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deep_Linked_Dogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF4B0804F09B6A32815B7B7 /* Pods_Deep_Linked_DogsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deep_Linked_DogsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C9BC1D461F4C16E420D769 /* Pods-Deep Linked DogsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Linked DogsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Linked DogsTests/Pods-Deep Linked DogsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBDBE62B4BC046A7B7878DF1 /* Pods-Deep Linked Dogs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep Linked Dogs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deep Linked Dogs/Pods-Deep Linked Dogs.release.xcconfig"; sourceTree = "<group>"; };
 		F9D7BF4B1FB3B53F00178C31 /* Deep Linked Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deep Linked Dogs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D7BF4E1FB3B53F00178C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9D7BF501FB3B53F00178C31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9D7BF531FB3B54000178C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9D7BF551FB3B54000178C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9D7BF581FB3B54000178C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		F9D7BF6A1FB3B54000178C31 /* Deep Linked DogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deep Linked DogsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D7BF6E1FB3B54000178C31 /* Deep_Linked_DogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deep_Linked_DogsUITests.swift; sourceTree = "<group>"; };
 		F9D7BF701FB3B54000178C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D7BF7C1FB3B59100178C31 /* BreedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListViewController.swift; sourceTree = "<group>"; };
+		F9D7BF7E1FB3B5A500178C31 /* DogListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogListViewController.swift; sourceTree = "<group>"; };
+		F9D7BF801FB3B5B700178C31 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
+		F9D7BF821FB3B62300178C31 /* DogDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDatabase.swift; sourceTree = "<group>"; };
+		F9D7BF841FB3B67A00178C31 /* DogBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreed.swift; sourceTree = "<group>"; };
+		F9D7BF861FB3B76700178C31 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10F587B9FABA6B6FA93AD4E /* Pods_Deep_Linked_Dogs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57508428A3FFF41B041A529C /* Pods_Deep_Linked_DogsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D60856EF99A8AF2D3DF3F0E /* Pods_Deep_Linked_DogsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62EF2661C5C2A1F80AAEDA2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				622ED9D0CC568E47590DF3AC /* Pods-Deep Linked Dogs.debug.xcconfig */,
+				DBDBE62B4BC046A7B7878DF1 /* Pods-Deep Linked Dogs.release.xcconfig */,
+				0490AF36A8EB7AA9EA3F03F5 /* Pods-Deep Linked DogsTests.debug.xcconfig */,
+				C0C9BC1D461F4C16E420D769 /* Pods-Deep Linked DogsTests.release.xcconfig */,
+				0216156E9D0192BE5DA16B34 /* Pods-Deep Linked DogsUITests.debug.xcconfig */,
+				813D09B8ED7A6F7EEA3146B8 /* Pods-Deep Linked DogsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7B1BB1904423EC0C36A020F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A36E35EC57612E70002AD0 /* Pods_Deep_Linked_Dogs.framework */,
+				8ED78C6C19B99D339520EE38 /* Pods_Deep_Linked_DogsTests.framework */,
+				BBF4B0804F09B6A32815B7B7 /* Pods_Deep_Linked_DogsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9D7BF421FB3B53F00178C31 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				F9D7BF621FB3B54000178C31 /* Deep Linked DogsTests */,
 				F9D7BF6D1FB3B54000178C31 /* Deep Linked DogsUITests */,
 				F9D7BF4C1FB3B53F00178C31 /* Products */,
+				62EF2661C5C2A1F80AAEDA2B /* Pods */,
+				E7B1BB1904423EC0C36A020F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +148,12 @@
 			isa = PBXGroup;
 			children = (
 				F9D7BF4E1FB3B53F00178C31 /* AppDelegate.swift */,
-				F9D7BF501FB3B53F00178C31 /* ViewController.swift */,
+				F9D7BF7C1FB3B59100178C31 /* BreedListViewController.swift */,
+				F9D7BF7E1FB3B5A500178C31 /* DogListViewController.swift */,
+				F9D7BF801FB3B5B700178C31 /* DogViewController.swift */,
+				F9D7BF841FB3B67A00178C31 /* DogBreed.swift */,
+				F9D7BF861FB3B76700178C31 /* Dog.swift */,
+				F9D7BF821FB3B62300178C31 /* DogDatabase.swift */,
 				F9D7BF521FB3B54000178C31 /* Main.storyboard */,
 				F9D7BF551FB3B54000178C31 /* Assets.xcassets */,
 				F9D7BF571FB3B54000178C31 /* LaunchScreen.storyboard */,
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D7BF731FB3B54000178C31 /* Build configuration list for PBXNativeTarget "Deep Linked Dogs" */;
 			buildPhases = (
+				9ADEF18CD418C3A140B8A3D0 /* [CP] Check Pods Manifest.lock */,
 				F9D7BF471FB3B53F00178C31 /* Sources */,
 				F9D7BF481FB3B53F00178C31 /* Frameworks */,
 				F9D7BF491FB3B53F00178C31 /* Resources */,
+				273F52D0A7EE7F7193965948 /* [CP] Embed Pods Frameworks */,
+				167AD4AE509F84118C330EEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D7BF761FB3B54000178C31 /* Build configuration list for PBXNativeTarget "Deep Linked DogsTests" */;
 			buildPhases = (
+				0012FEA37132E6496198D4A8 /* [CP] Check Pods Manifest.lock */,
 				F9D7BF5B1FB3B54000178C31 /* Sources */,
 				F9D7BF5C1FB3B54000178C31 /* Frameworks */,
 				F9D7BF5D1FB3B54000178C31 /* Resources */,
+				8A98D93AB4A8E1A088CAC9FF /* [CP] Embed Pods Frameworks */,
+				C9C94DFE6B472E41C27C0C17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D7BF791FB3B54000178C31 /* Build configuration list for PBXNativeTarget "Deep Linked DogsUITests" */;
 			buildPhases = (
+				C63021AAEE69E956EE757752 /* [CP] Check Pods Manifest.lock */,
 				F9D7BF661FB3B54000178C31 /* Sources */,
 				F9D7BF671FB3B54000178C31 /* Frameworks */,
 				F9D7BF681FB3B54000178C31 /* Resources */,
+				09E3F8EFC8348463EEB1653A /* [CP] Embed Pods Frameworks */,
+				BAD7A8F1EA8E85455BF7E73A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +318,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0012FEA37132E6496198D4A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deep Linked DogsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09E3F8EFC8348463EEB1653A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deep Linked DogsUITests/Pods-Deep Linked DogsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		167AD4AE509F84118C330EEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deep Linked Dogs/Pods-Deep Linked Dogs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		273F52D0A7EE7F7193965948 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Deep Linked Dogs/Pods-Deep Linked Dogs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deep Linked Dogs/Pods-Deep Linked Dogs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A98D93AB4A8E1A088CAC9FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deep Linked DogsTests/Pods-Deep Linked DogsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADEF18CD418C3A140B8A3D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deep Linked Dogs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAD7A8F1EA8E85455BF7E73A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deep Linked DogsUITests/Pods-Deep Linked DogsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63021AAEE69E956EE757752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deep Linked DogsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C94DFE6B472E41C27C0C17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deep Linked DogsTests/Pods-Deep Linked DogsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9D7BF471FB3B53F00178C31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D7BF511FB3B53F00178C31 /* ViewController.swift in Sources */,
+				F9D7BF831FB3B62300178C31 /* DogDatabase.swift in Sources */,
+				F9D7BF871FB3B76700178C31 /* Dog.swift in Sources */,
 				F9D7BF4F1FB3B53F00178C31 /* AppDelegate.swift in Sources */,
+				F9D7BF7F1FB3B5A500178C31 /* DogListViewController.swift in Sources */,
+				F9D7BF851FB3B67A00178C31 /* DogBreed.swift in Sources */,
+				F9D7BF7D1FB3B59100178C31 /* BreedListViewController.swift in Sources */,
+				F9D7BF811FB3B5B700178C31 /* DogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +647,7 @@
 		};
 		F9D7BF741FB3B54000178C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 622ED9D0CC568E47590DF3AC /* Pods-Deep Linked Dogs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +663,7 @@
 		};
 		F9D7BF751FB3B54000178C31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDBE62B4BC046A7B7878DF1 /* Pods-Deep Linked Dogs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +679,7 @@
 		};
 		F9D7BF771FB3B54000178C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0490AF36A8EB7AA9EA3F03F5 /* Pods-Deep Linked DogsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +697,7 @@
 		};
 		F9D7BF781FB3B54000178C31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C9BC1D461F4C16E420D769 /* Pods-Deep Linked DogsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +715,7 @@
 		};
 		F9D7BF7A1FB3B54000178C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0216156E9D0192BE5DA16B34 /* Pods-Deep Linked DogsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +732,7 @@
 		};
 		F9D7BF7B1FB3B54000178C31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813D09B8ED7A6F7EEA3146B8 /* Pods-Deep Linked DogsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

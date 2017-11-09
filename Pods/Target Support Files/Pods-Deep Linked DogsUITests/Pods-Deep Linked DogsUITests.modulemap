@@ -1,0 +1,6 @@
+framework module Pods_Deep_Linked_DogsUITests {
+  umbrella header "Pods-Deep Linked DogsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
