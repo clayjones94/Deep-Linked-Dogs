@@ -22,6 +22,7 @@
 		F9D7BF831FB3B62300178C31 /* DogDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF821FB3B62300178C31 /* DogDatabase.swift */; };
 		F9D7BF851FB3B67A00178C31 /* DogBreed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF841FB3B67A00178C31 /* DogBreed.swift */; };
 		F9D7BF871FB3B76700178C31 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7BF861FB3B76700178C31 /* Dog.swift */; };
+		F9D7BF891FB3E0CE00178C31 /* Deep Linked Dogs.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = F9D7BF881FB3DED900178C31 /* Deep Linked Dogs.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		F9D7BF821FB3B62300178C31 /* DogDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDatabase.swift; sourceTree = "<group>"; };
 		F9D7BF841FB3B67A00178C31 /* DogBreed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreed.swift; sourceTree = "<group>"; };
 		F9D7BF861FB3B76700178C31 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		F9D7BF881FB3DED900178C31 /* Deep Linked Dogs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Deep Linked Dogs.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		F9D7BF4D1FB3B53F00178C31 /* Deep Linked Dogs */ = {
 			isa = PBXGroup;
 			children = (
+				F9D7BF881FB3DED900178C31 /* Deep Linked Dogs.entitlements */,
 				F9D7BF4E1FB3B53F00178C31 /* AppDelegate.swift */,
 				F9D7BF7C1FB3B59100178C31 /* BreedListViewController.swift */,
 				F9D7BF7E1FB3B5A500178C31 /* DogListViewController.swift */,
@@ -258,6 +261,11 @@
 					F9D7BF4A1FB3B53F00178C31 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					F9D7BF5E1FB3B54000178C31 = {
 						CreatedOnToolsVersion = 9.0;
@@ -296,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9D7BF891FB3E0CE00178C31 /* Deep Linked Dogs.entitlements in Resources */,
 				F9D7BF591FB3B54000178C31 /* LaunchScreen.storyboard in Resources */,
 				F9D7BF561FB3B54000178C31 /* Assets.xcassets in Resources */,
 				F9D7BF541FB3B54000178C31 /* Main.storyboard in Resources */,
@@ -652,6 +661,7 @@
 			baseConfigurationReference = 622ED9D0CC568E47590DF3AC /* Pods-Deep Linked Dogs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Deep Linked Dogs/Deep Linked Dogs.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG5WBEU96D;
 				INFOPLIST_FILE = "Deep Linked Dogs/Info.plist";
@@ -668,6 +678,7 @@
 			baseConfigurationReference = DBDBE62B4BC046A7B7878DF1 /* Pods-Deep Linked Dogs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Deep Linked Dogs/Deep Linked Dogs.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CG5WBEU96D;
 				INFOPLIST_FILE = "Deep Linked Dogs/Info.plist";
