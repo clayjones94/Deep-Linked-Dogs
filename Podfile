@@ -8,6 +8,7 @@ target 'Deep Linked Dogs' do
   pod 'Alamofire', '~> 4.5'
   pod 'SwiftyJSON'
   pod 'Kingfisher'
+  pod 'Branch'
 
   # Pods for Deep Linked Dogs
 
